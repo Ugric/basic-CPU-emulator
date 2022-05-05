@@ -1,0 +1,32 @@
+MES 1, 1000
+MES 2, 10
+
+REL 0, 2
+RES 1, 1
+
+SUB 0, 1, 0
+
+MEL 2, 0
+
+RES 0, 72
+OUT 1, 0
+RES 0, 69
+OUT 1, 0
+RES 0, 76
+OUT 1, 0
+RES 0, 76
+OUT 1, 0
+RES 0, 79
+OUT 1, 0
+RES 0, 10
+OUT 1, 0
+
+REL 0, 2
+JIF 0, 31
+
+RES 0, 1000
+SLE 0
+
+
+REL 0, 2
+JIT 0, 3
